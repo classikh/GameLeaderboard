@@ -1,7 +1,7 @@
 # GameLeaderboard
 
-A simple Java program demonstrating a **sortable array** with two independent features.  
-This project is designed as a Git exercise for INFO 4190 - Integration Project I.
+A simple Java program about a Game Leaderboard demonstrating a **sortable array** with two independent features.  
+Git exercise | INFO 4190 - Integration Project I.
 
 ---
 
@@ -36,23 +36,7 @@ This project is designed as a Git exercise for INFO 4190 - Integration Project I
 
 ---
 
-## How to Run
-
-1. Clone the repository:
-
-```bash
-
-
-
-
-
 CODE: 
-import java.util.Arrays;
-import java.util.Scanner;
-
-public class GameLeaderboard {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
         // Player names and scores
         String[] players = {"Max", "Alex", "Clementine", "Aurora", "Ciri", "Jhené"};
