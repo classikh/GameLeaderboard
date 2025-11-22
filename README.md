@@ -1,6 +1,52 @@
 # GameLeaderboard
-Game Leaderboard - Sortable Java Array with Two Independent Features - Git Exercise (INFO 4190)
 
+A simple Java program demonstrating a **sortable array** with two independent features.  
+This project is designed as a Git exercise for INFO 4190 - Integration Project I.
+
+---
+
+## Players and Scores
+
+| Player      | Score |
+|------------ |------ |
+| Max         | 85    |
+| Alex        | 92    |
+| Clementine  | 78    |
+| Aurora      | 90    |
+| Ciri        | 88    |
+| Jhené       | 95    |
+
+---
+
+## Features
+
+### Feature 1: Sort Scores (Integers)
+- Sorts the player scores in **ascending order**.
+- Displays each player with their corresponding score.
+- Located in branch: `sort-integers`.
+
+### Feature 2: Sort Player Names (Strings)
+- Sorts player names **alphabetically**.
+- Displays each player name.
+- Located in branch: `sort-strings`.
+
+### Feature 3: Feature Selection (Branching)
+- Main program allows the user to **choose which feature to run** via console input.
+- Located in branch: `main` (or `master`).
+
+---
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+
+
+
+
+
+CODE: 
 import java.util.Arrays;
 import java.util.Scanner;
 
