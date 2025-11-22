@@ -1,7 +1,7 @@
 /name/
 # GameLeaderboard
 Game Leaderboard - Sortable Java Array with Two Independent Features - Git Exercise (INFO 4190)
-//Have a nice weekend!
+
 import java.util.Arrays;
 import java.util.Scanner;
 
