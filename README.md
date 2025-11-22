@@ -1,12 +1,42 @@
 # GameLeaderboard
-Game Leaderboard - Sortable Java Array with Two Independent Features - Git Exercise (INFO 4190)
 
-import java.util.Arrays;
-import java.util.Scanner;
+A simple Java program about a Game Leaderboard demonstrating a **sortable array** with two independent features.  
+Git exercise | INFO 4190 - Integration Project I.
 
-public class GameLeaderboard {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+---
+
+## Players and Scores
+
+| Player      | Score |
+|------------ |------ |
+| Max         | 85    |
+| Alex        | 92    |
+| Clementine  | 78    |
+| Aurora      | 90    |
+| Ciri        | 88    |
+| Jhené       | 95    |
+
+---
+
+## Features
+
+### Feature 1: Sort Scores (Integers)
+- Sorts the player scores in **ascending order**.
+- Displays each player with their corresponding score.
+- Located in branch: `sort-integers`.
+
+### Feature 2: Sort Player Names (Strings)
+- Sorts player names **alphabetically**.
+- Displays each player name.
+- Located in branch: `sort-strings`.
+
+### Feature 3: Feature Selection (Branching)
+- Main program allows the user to **choose which feature to run** via console input.
+- Located in branch: `main` (or `master`).
+
+---
+
+CODE: 
 
         // Player names and scores
         String[] players = {"Max", "Alex", "Clementine", "Aurora", "Ciri", "Jhené"};
